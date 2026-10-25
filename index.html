@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bengkel Amp</title>
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<canvas id="c"></canvas>
+<div id="bar"><button id="go">▶ Jalankan</button><button id="del" disabled>Hapus</button><button id="svc" disabled>Servis</button><button id="mm">Multimeter</button><div id="mp" style="display:none;flex:1 1 100%;gap:6px;flex-wrap:wrap;align-items:center"><button data-m="VDC">VDC</button><button data-m="VAC">VAC</button><button data-m="Ohm">Ω</button><button data-m="Suhu">Suhu</button><b id="rd" style="flex:1 1 100%;color:#ffe600;font:700 15px monospace">Pilih mode, tap pin merah lalu pin hitam.</b></div><span id="st">Pilih komponen di bawah, geser ke papan, lalu tarik dari titik pin ke pin lain untuk sambung kabel.</span></div>
+<div id="tray"></div>
+<script src="js/core.js"></script>
+<script src="js/parts.js"></script>
+<script src="js/circuit.js"></script>
+<script src="js/render.js"></script>
+<script src="js/sim.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/input.js"></script>
+<script src="js/main.js"></script>
+</body></html>
